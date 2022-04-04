@@ -1,0 +1,24 @@
+{
+  "name": "intro-to-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node schools.js",
+    "dev": "nodemon schools.js"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Victor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
